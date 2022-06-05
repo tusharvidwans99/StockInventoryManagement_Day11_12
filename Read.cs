@@ -10,7 +10,7 @@ namespace StockAccountManagement
 {
     public class Read
     {
-        public void ReadtheData(string path)
+        public InventoryManager ReadtheData(string path)
         {
             InventoryManager inventoryManager = new InventoryManager();
 
@@ -18,7 +18,7 @@ namespace StockAccountManagement
             {
                 string json = file.ReadToEnd();
 
-                inventoryManager = JsonConvert.DeserializeObject<InventoryManager>(json);
+                return JsonConvert.DeserializeObject<InventoryManager>(json);
 
             }
         }

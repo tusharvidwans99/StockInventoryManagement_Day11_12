@@ -16,7 +16,7 @@ namespace StockAccountManagement
             Read read = new Read();
             
             string path = "C:/Users/tusha/source/repos/StockAccountManagement/StockAccountManagement/StockInventory.json";
-            read.ReadtheData(path);
+            inventoryManager = read.ReadtheData(path);
             
 
 
