@@ -1,0 +1,26 @@
+{
+  "StockNames": [
+    "RELIANCE INDUSTRIES LTD.",
+    "TATA CONSULTANCY SERVICES LTD.",
+    "HDFC Bank Ltd",
+    "INFOSYS LTD.",
+    "HINDUSTAN UNILEVER LTD.",
+    "ICICI BANK LTD."
+  ],
+  "NoOfShares": [
+    102,
+    110,
+    75,
+    98,
+    142,
+    81
+  ],
+  "SharePrice": [
+    2779.50,
+    3438.80,
+    1380.25,
+    1522.00,
+    2292.15,
+    743.60
+  ]
+}
